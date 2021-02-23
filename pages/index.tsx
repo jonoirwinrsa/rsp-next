@@ -15,14 +15,20 @@ const Home = () => (
         rows={["size-2000", "1fr", "size-1000"]}
         minHeight="100vh"
         gap="size-100"
+        UNSAFE_style={{
+          background: "radial-gradient(#00000020, #FFF),",
+        }}
       >
-        <View gridArea="header" padding='size-100' marginBottom='size-200'>
+        <View gridArea="header" padding="size-400" marginBottom="size-200">
           <Header />
         </View>
         <View flex={1} gridArea="sidebar">
           <Sidebar />
         </View>
-        <View gridArea="content" padding='size-100'>
+        <View
+          gridArea="content"
+          padding="size-400"
+        >
           <Overview />
           <Insights />
         </View>

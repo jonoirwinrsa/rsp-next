@@ -6,9 +6,7 @@ const Card = ({ children }) => (
     margin="size-150"
     padding="size-100"
     borderRadius="medium"
-    UNSAFE_style={{
-      boxShadow: "15px 15px 30px #bebebe, -15px -15px 30px #ffffff;",
-    }}
+    backgroundColor="static-white"
   >
     {children}
   </View>

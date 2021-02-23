@@ -3,9 +3,12 @@ import Link from "next/link";
 import * as React from "react";
 
 const Sidebar = () => (
-  <View padding="size-100" minHeight='100vh' borderEndWidth="thin" borderColor="gray-200">
-    <Flex direction="column" gap="size-200" minHeight='90vh' justifyContent="space-between" alignSelf="center">
+  <View padding="size-400" minHeight="100vh" borderEndWidth="thin" borderColor="gray-200">
+    <Flex direction="column" gap="size-200" minHeight="90vh" justifyContent="space-between" alignSelf="center">
+      <Flex direction="row" alignItems="center">
+      <img src="logo.svg" height={30} width={30} />
       <h2>DTeam</h2>
+      </Flex>
       <Flex direction="column" gap="size-100">
         <Link href="/">
           <Button variant="cta">Home</Button>
