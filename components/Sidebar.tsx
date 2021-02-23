@@ -1,4 +1,4 @@
-import { Button, Divider, Flex, View } from "@adobe/react-spectrum";
+import { Button, Divider, Flex, Heading, View } from "@adobe/react-spectrum";
 import Link from "next/link";
 import * as React from "react";
 
@@ -7,7 +7,7 @@ const Sidebar = () => (
     <Flex direction="column" gap="size-200" minHeight="90vh" justifyContent="space-between" alignSelf="center">
       <Flex direction="row" alignItems="center">
       <img src="logo.svg" height={30} width={30} />
-      <h2>DTeam</h2>
+      <Heading level={1} UNSAFE_style={{ fontSize: "3rem" }}>DTeam</Heading>
       </Flex>
       <Flex direction="column" gap="size-100">
         <Link href="/">

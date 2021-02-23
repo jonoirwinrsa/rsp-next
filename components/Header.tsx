@@ -1,10 +1,12 @@
-import { Header as Wrapper } from "@adobe/react-spectrum";
+import { Header as Wrapper, Heading } from "@adobe/react-spectrum";
 import * as React from "react";
 
 const Header = () => (
   <Wrapper>
-    <h3>Hi Michael Louis,</h3>
-    <h1>Welcome back 👋</h1>
+    <Heading level={2} marginBottom={0}>Hi Michael Louis,</Heading>
+    <Heading level={1} marginTop={0} UNSAFE_style={{ fontSize: "3rem" }}>
+      Welcome back 👋
+    </Heading>
   </Wrapper>
 );
 

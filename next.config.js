@@ -8,4 +8,5 @@ const withTM = require("next-transpile-modules")([
 
 module.exports = withPlugins([withCSS, withTM], {
   // Your next configuration
+  reactStrictMode: true,
 });
