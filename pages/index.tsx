@@ -28,7 +28,7 @@ const Home = () => (
         gap="size-100"
         UNSAFE_style={{
           background: "radial-gradient(#00000010, #FFFFFF)",
-          backgroundColor: 'white'
+          backgroundColor: "white",
         }}
       >
         <View gridArea="header" padding="size-400" marginBottom="size-200">
@@ -53,6 +53,10 @@ const Home = () => (
         width: 100%;
         height: 100%;
         margin: 0;
+      }
+
+      a {
+        text-decoration: none;
       }
     `}</style>
   </SSRProvider>

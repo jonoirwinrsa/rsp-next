@@ -4,10 +4,16 @@ import * as React from "react";
 
 const Button = ({ link, text, icon, background, color }) => (
   <Link href={link}>
-    <Flex direction="row" alignItems="center" UNSAFE_style={{ background, borderRadius: "12px", padding: "12px", color }}>
-      <img src={icon} style={{ marginRight: "10px", color }} />
-      <Text>{text}</Text>
-    </Flex>
+    <a>
+      <Flex
+        direction="row"
+        alignItems="center"
+        UNSAFE_style={{ background, borderRadius: "12px", padding: "12px", color }}
+      >
+        <img src={icon} style={{ marginRight: "10px", color }} />
+        <Text>{text}</Text>
+      </Flex>
+    </a>
   </Link>
 );
 
