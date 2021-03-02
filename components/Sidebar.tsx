@@ -4,7 +4,7 @@ import * as React from "react";
 
 const Button = ({ link, text, icon, background, color }) => (
   <Link href={link}>
-    <Flex direction="row" UNSAFE_style={{ background, borderRadius: "12px", padding: "12px", color }}>
+    <Flex direction="row" alignItems="center" UNSAFE_style={{ background, borderRadius: "12px", padding: "12px", color }}>
       <img src={icon} style={{ marginRight: "10px", color }} />
       <Text>{text}</Text>
     </Flex>
@@ -26,7 +26,7 @@ const Sidebar = () => (
         <Button text="Integrations" background="" color="grey" icon="icons/integrations.svg" link="/integrations" />
         <Button text="Marketplace" background="" color="grey" icon="icons/marketplace.svg" link="/marketplace" />
       </Flex>
-      <Divider />
+      <Divider size="M" />
       <Flex direction="column" gap="size-100">
         <Button text="Notifications" background="" color="grey" icon="icons/notifications.svg" link="/notifications" />
         <Button text="Comments" background="" color="grey" icon="icons/chat.svg" link="/comments" />

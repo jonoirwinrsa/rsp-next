@@ -27,7 +27,8 @@ const Home = () => (
         minHeight="100vh"
         gap="size-100"
         UNSAFE_style={{
-          background: "radial-gradient(#00000020, #FFF),",
+          background: "radial-gradient(#00000010, #FFFFFF)",
+          backgroundColor: 'white'
         }}
       >
         <View gridArea="header" padding="size-400" marginBottom="size-200">

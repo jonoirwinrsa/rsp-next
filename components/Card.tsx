@@ -4,8 +4,8 @@ import * as React from "react";
 const Card = ({ children }) => (
   <View
     margin="size-150"
-    padding="size-100"
-    borderRadius="medium"
+    padding="size-400"
+    borderRadius="large"
     backgroundColor="static-white"
   >
     {children}
