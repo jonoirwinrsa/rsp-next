@@ -1,5 +1,5 @@
 import React from "react";
 
 export default () => {
-  return <div>Integrations</div>;
+  return <h1>Integrations</h1>;
 };

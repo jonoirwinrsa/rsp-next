@@ -1,5 +1,5 @@
 import React from "react";
 
 export default () => {
-  return <div>Notifications</div>;
+  return <h1>Notifications</h1>;
 };
