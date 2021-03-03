@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "dteam19a2668d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
